@@ -1,4 +1,60 @@
-/**
- * @file
- * Subtheme specific CSS.
- */
+.row {
+  margin: 0;
+}
+.views-row {
+  max-width: 100%;
+}
+
+/*
+#navbar-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary);
+}
+
+#navbar-main .navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar-main .navbar-brand img {
+  margin-right: 0.5rem;
+}
+
+#navbar-main #CollapsingNavbar {
+  flex: none;
+}
+
+#main.container {
+  margin: 0;
+  width: 100% !important;
+  max-width: 100%;
+}
+
+#main.container main {
+  position: relative;
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+section {
+  padding: auto 15px auto 15px;
+}
+
+#main.container .sidebar-first {
+  position: relative;
+}
+#main.container .sidebar-first #sidebar_first {
+  position: sticky;
+  top: 15px;
+  max-width: 100%;
+}
+
+#main.container .sidebar-second {
+  position: relative;
+}
+#main.container .sidebar-second #sidebar_second {
+  position: sticky;
+  top: 15px;
+}*/
