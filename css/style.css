@@ -5,13 +5,71 @@
   max-width: 100%;
 }
 
-/*
-#navbar-main {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--primary);
+.field--name-field-title {
+  margin-top: 0.5em;
+  font-weight: bold;
+  font-size: 20px;
 }
 
+main {
+  padding-top: 2em;
+}
+
+main h2 {
+  font-weight: bold;
+}
+
+.card .card-img,
+.card .card-img img {
+  position: relative;
+  order: -1;
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+}
+.card .card-img .field--name-field-creation-date {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.5em;
+  background-color: #fffdf3;
+  border-bottom-left-radius: 15px;
+}
+.card .card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card .field--name-field-tags {
+  margin: 1em 0 0.75em 0;
+}
+.card .field--name-field-tags a {
+  display: block;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  max-width: 8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card .field--name-field-tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card .field--name-field-tags ul li {
+  padding: 0.2em 1em 0.2em 0 !important;
+}
+
+#navbar-main {
+  height: 4em;
+  -webkit-box-shadow: 0px 10px 21px -5px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 10px 21px -5px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 21px -5px rgba(0, 0, 0, 0.24);
+}
 #navbar-main .navbar-brand {
   display: flex;
   align-items: center;
@@ -19,42 +77,30 @@
 }
 #navbar-main .navbar-brand img {
   margin-right: 0.5rem;
+  height: 30px;
 }
 
-#navbar-main #CollapsingNavbar {
-  flex: none;
+.secondary-navmenu {
+  margin-right: 0;
+  margin-left: auto;
 }
 
-#main.container {
+.views-view-responsive-grid__item-inner,
+.views-view-responsive-grid__item-inner article {
+  height: 98%;
+}
+.node--view-mode-teaser {
   margin: 0;
-  width: 100% !important;
-  max-width: 100%;
 }
-
-#main.container main {
-  position: relative;
-  padding-top: 15px;
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+.views-view-responsive-grid__item-inner article .node__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-
-section {
-  padding: auto 15px auto 15px;
+.views-view-responsive-grid__item-inner
+  article
+  .node__content
+  .field--name-field-creation-date {
+  margin-bottom: 10px;
+  margin-top: auto;
 }
-
-#main.container .sidebar-first {
-  position: relative;
-}
-#main.container .sidebar-first #sidebar_first {
-  position: sticky;
-  top: 15px;
-  max-width: 100%;
-}
-
-#main.container .sidebar-second {
-  position: relative;
-}
-#main.container .sidebar-second #sidebar_second {
-  position: sticky;
-  top: 15px;
-}*/
